@@ -53,6 +53,11 @@
         margin-top: 80px;
     }
 
+    .header__logo img {
+        width: 121px;
+        height: 32px;
+    }
+
     .hero__item img {
         height: 24px;
         width: 85px;
