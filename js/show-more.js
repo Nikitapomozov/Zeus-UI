@@ -1,6 +1,6 @@
 const showMore = document.querySelector('.show-more');
 const cardsLenght = document.querySelectorAll('.collections__card').length; // общее кол-во элементов
-let items = 3; // начальное кол-во элементов
+let items = 6; // начальное кол-во элементов
 
 showMore.addEventListener('click', () => {
     items += 3;

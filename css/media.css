@@ -124,4 +124,42 @@
     }
 
 
+    .collections__card {
+
+        &:hover {
+            transform: none;
+        }
+
+        &:active {
+            transform: scale(1.04);
+        }
+    }
+
+    .team__cards {
+        flex-wrap: wrap;
+
+    }
+
+    .team__card {
+        width: calc(100% / 3);
+    }
+
+    .team__container {
+        margin-top: 100px;
+    }
+
+
+    .team__name {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .team__post {
+        margin-top: 8px;
+    }
+
+    .team__sub-title {
+        margin-top: 8px;
+        line-height: 26px;
+    }
 }
