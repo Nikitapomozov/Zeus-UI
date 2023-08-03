@@ -111,7 +111,17 @@
         margin-top: 8px;
     }
 
-  
+    .show-more {
+        display: inline-block;
+    }
+
+    .collections__card:nth-child(n+4) {
+        display: none;
+    }
+
+    .collections__card.is-visible {
+        display: block;
+    }
 
 
 }

@@ -209,3 +209,18 @@
     height: 100%;
     object-fit: cover;
 }
+
+.show-more {
+    display: none;
+    color: var(--white, #FFF);
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    background: #532C59;
+    margin-top: 32px;
+    padding: 16px 20px;
+    border-radius: 15px;
+}
+
+ 
