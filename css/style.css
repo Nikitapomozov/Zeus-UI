@@ -188,7 +188,6 @@
     font-weight: 600;
     line-height: 42px;
     margin-top: 16px;
-    padding: 0 20px;
 }
 
 
@@ -199,35 +198,31 @@
     font-weight: 400;
     line-height: 20px;
     margin-top: 12px;
-    padding: 0 20px;
 }
 
-.collections__cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 392px);
-    justify-content: center;
-    column-gap: 32px;
-    row-gap: 64px;
+.collections__cards-row {
+    display: flex;
+    gap: 32px;
+}
+
+.collections__cards-row:not(:first-child) {
     margin-top: 64px;
 }
 
-.collections__card-img {
-    max-width: 412px;
-    height: 396px;
-
-
+.collections__cards {
+    margin-top: 64px;
 }
 
 .collections__card-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border-radius: 20px;
     transition: 0.4s;
 
 }
 
 .collections__card {
+    width: calc(100% / 3);
     transition: 0.3s;
     border: 3px solid black;
     border-radius: 22px;
@@ -247,12 +242,12 @@
     display: inline-block;
 }
 
-.collections__card:nth-child(n+7) {
+.collections__cards-row:nth-child(n+3) {
     display: none;
 }
 
-.collections__card.is-visible {
-    display: block;
+.collections__cards-row.is-visible {
+    display: flex;
 }
 
 .team__container {

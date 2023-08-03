@@ -54,10 +54,17 @@
         line-height: 20px;
     }
 
-    .collections__card-row:not(:first-child) {
+    .collections__cards-row:not(:first-child) {
         margin-top: 48px;
     }
 
+    .collections__cards {
+        margin-top: 48px;
+    }
+
+    .collections__cards-row {
+        gap: 24px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -91,7 +98,11 @@
 
     .collections__cards {
         margin-top: 32px;
-        row-gap: 40px;
+    }
+
+    .collections__cards-row {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .title {
@@ -125,6 +136,8 @@
 
 
     .collections__card {
+
+        width: 100%;
 
         &:hover {
             transform: none;
