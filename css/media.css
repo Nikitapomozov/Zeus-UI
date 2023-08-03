@@ -58,10 +58,6 @@
         margin-top: 48px;
     }
 
-    .collections__cards {
-        margin-top: 48px;
-    }
-
     .collections__cards-row {
         gap: 24px;
     }
@@ -144,13 +140,12 @@
         }
 
         &:active {
-            transform: scale(1.04);
+            transform: none;
         }
     }
 
     .team__cards {
         flex-wrap: wrap;
-
     }
 
     .team__card {
@@ -160,7 +155,6 @@
     .team__container {
         margin-top: 100px;
     }
-
 
     .team__name {
         font-size: 20px;
