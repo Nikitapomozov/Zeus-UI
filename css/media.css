@@ -4,7 +4,7 @@
         padding: 0 32px;
     }
 
-    .nav__list {
+    .header__nav {
         display: none;
     }
 
@@ -74,6 +74,54 @@
 
     .team__container {
         margin-top: 100px;
+    }
+
+
+    .footer__logo {
+        width: auto;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+
+    .footer__nav-pad {
+        display: block;
+    }
+
+    .footer__nav-list {
+        width: auto;
+    }
+
+    .footer__container {
+        margin-top: 138px;
+    }
+
+    .sell__title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .sell__sub-title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .button {
+        padding: 12px 14px;
+    }
+
+    .sell__button {
+
+        margin-top: 24px;
+    }
+
+    .sell__wrapper {
+        padding: 32px 0;
+    }
+
+    .sell__container {
+        margin-top: 82px;
     }
 }
 
@@ -218,4 +266,45 @@
         line-height: 18px;
     }
 
+    .footer__nav-list {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        border: none;
+        padding: 0;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #CCD5DF;
+    }
+
+    .footer__container {
+        margin-top: 63px;
+    }
+
+    .sell__decoration {
+        display: none;
+    }
+
+    .sell__container {
+        margin-top: 48px;
+    }
+
+    .sell__wrapper {
+        padding: 24px 16px;
+    }
+
+    .button {
+        padding: 12px 14px;
+    }
+
+    .sell__button {
+        margin-top: 16px;
+    }
+
+    .sell__sub-title {
+        margin-top: 8px;
+    }
 }
