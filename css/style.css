@@ -399,6 +399,7 @@ body.noscroll {
 .faq__container {
     display: flex;
     margin-top: 80px;
+    gap: 32px;
 }
 
 .faq__left {
@@ -412,4 +413,71 @@ body.noscroll {
 
 .popup {
     display: none;
+}
+
+.faq__right {
+    display: flex;
+    gap: 32px;
+}
+
+.accordion:not(:first-child) {
+    margin-top: 24px;
+}
+
+.accordion {
+    max-width: 412px;
+    padding: 24px;
+    border-radius: 15px;
+    border: 1px solid var(--purple-30, #D6BCFA);
+}
+
+.accordion__control {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    color: var(--black, #000);
+    font-family: Space Grotesk;
+    background-color: white;
+
+}
+
+.accordion__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.accordion__content {
+    color: var(--accent, #532C59);
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    will-change: max-height;
+    transition: all 0.3s ease-out;
+    box-sizing: content-box;
+}
+
+.accordion__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease-out;
+}
+
+.open .accordion__icon {
+    transform: rotate(180deg);
+}
+
+.open .accordion__content {
+    opacity: 1;
+    margin-top: 12px;
 }
