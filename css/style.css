@@ -143,6 +143,7 @@ body.noscroll {
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
+    text-align: center;
 }
 
 
@@ -169,6 +170,10 @@ body.noscroll {
     font-size: 32px;
     font-weight: 600;
     line-height: 42px;
+    margin-top: 16px;
+}
+
+.collections__sub-title {
     margin-top: 16px;
 }
 
@@ -321,6 +326,7 @@ body.noscroll {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
+    gap: 50px;
     border-bottom: 1px solid #CCD5DF;
 }
 
@@ -402,6 +408,10 @@ body.noscroll {
     gap: 32px;
 }
 
+.faq__title {
+    text-align: left;
+}
+
 .faq__left {
     text-align: left;
     max-width: 440px;
@@ -477,4 +487,59 @@ body.noscroll {
 .open .accordion__content {
     opacity: 1;
     margin-top: 12px;
+}
+
+.testimonials__cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.testimonials__card {
+    max-width: 412px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid var(--purple-30, #D6BCFA);
+    background: var(--white, #FFF);
+}
+
+.testimonials__card:not(:first-child) {
+    margin-top: 32px;
+}
+
+.testimonials__card-top {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.testimonials__card-name {
+    color: var(--black, #000);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.testimonials__card-login {
+    color: var(--black, #000);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.testimonials__card-text {
+    color: var(--accent, #532C59);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.testimonials__container {
+    margin-top: 200px;
 }

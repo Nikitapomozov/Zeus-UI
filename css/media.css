@@ -1,4 +1,4 @@
-@media (max-width: 980px) {
+@media (max-width: 1000px) {
 
     .container {
         padding: 0 32px;
@@ -119,7 +119,7 @@
     }
 
     .footer__nav-pad {
-        display: block;
+        display: flex;
     }
 
     .footer__nav-list {
@@ -130,6 +130,8 @@
     .footer__container {
         margin-top: 138px;
     }
+
+
 
     .footer__nav-link {
         color: var(--black, #000);
@@ -220,6 +222,58 @@
         margin-top: 32px;
     }
 
+    .testimonials__container {
+        margin-top: 144px;
+    }
+
+    .testimonials__cards {
+        margin-top: 64px;
+        gap: 24px;
+    }
+
+    .testimonials__card:not(:first-child) {
+        margin-top: 24px;
+    }
+
+    .testimonials__card-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .testimonials__card-name {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .testimonials__card-login {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .testimonials__cards-column:nth-child(3) {
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .footer__nav-list {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        border: none;
+        padding: 0;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #CCD5DF;
+    }
+
+    .footer__container {
+        margin-top: 63px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -363,24 +417,6 @@
         line-height: 18px;
     }
 
-    .footer__nav-list {
-        align-items: center;
-        flex-direction: column;
-        margin-top: 32px;
-    }
-
-    .footer__top {
-        flex-direction: column;
-        border: none;
-        padding: 0;
-        padding-bottom: 32px;
-        border-bottom: 1px solid #CCD5DF;
-    }
-
-    .footer__container {
-        margin-top: 63px;
-    }
-
     .sell__decoration {
         display: none;
     }
@@ -429,4 +465,41 @@
         line-height: 20px;
     }
 
+    .testimonials__container {
+        margin-top: 96px;
+    }
+
+    .testimonials__cards {
+        margin-top: 32px;
+        gap: 8px;
+    }
+
+    .testimonials__card:not(:first-child) {
+        margin-top: 8px;
+    }
+
+    .testimonials__card-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .testimonials__card-name {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .testimonials__card-login {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .testimonials__cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .testimonials__cards-column:not(:first-child) {
+        margin-top: 8px;
+    }
 }
