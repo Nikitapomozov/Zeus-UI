@@ -219,7 +219,7 @@
     }
 
     .accordion-list:nth-child(2) {
-        margin-top: 32px;
+        margin-top: 24px;
     }
 
     .testimonials__container {
@@ -501,5 +501,13 @@
 
     .testimonials__cards-column:not(:first-child) {
         margin-top: 8px;
+    }
+
+    .accordion-list:nth-child(2) {
+        margin-top: 16px;
+    }
+
+    .accordion:not(:first-child) {
+        margin-top: 16px;
     }
 }
