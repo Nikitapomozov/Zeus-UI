@@ -434,6 +434,7 @@ body.noscroll {
 }
 
 .accordion {
+    cursor: pointer;
     max-width: 412px;
     padding: 24px;
     border-radius: 15px;
